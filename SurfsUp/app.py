@@ -119,7 +119,7 @@ def stations():
 
 
 @app.route("/api/v1.0/tobs")
-def tabs():
+def tobs():
     print("Server received request for 'tobs' page...")
 
     # Collect and aggregate the temperature obersvation data
